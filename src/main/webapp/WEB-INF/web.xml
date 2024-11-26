@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	id="WebApp_ID" version="6.0">
+	<jsp-config>
+        <taglib>
+            <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+            <taglib-location>/WEB-INF/lib/jstl-core.jar</taglib-location>
+        </taglib>
+    </jsp-config>
+  <display-name>Hospital_Management_2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>adminLogin</display-name>
+    <servlet-name>adminLogin</servlet-name>
+    <servlet-class>adminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminLogin</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AdminLogout</display-name>
+    <servlet-name>AdminLogout</servlet-name>
+    <servlet-class>AdminLogout</servlet-class>
+</servlet>
+
+<servlet>
+    <description></description>
+    <display-name>UserLogin</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserLogout</display-name>
+    <servlet-name>UserLogout</servlet-name>
+    <servlet-class>UserLogout</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UserLogout</servlet-name>
+    <url-pattern>/UserLogout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddDoctor</display-name>
+    <servlet-name>AddDoctor</servlet-name>
+    <servlet-class>AddDoctor</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddDoctor</servlet-name>
+    <url-pattern>/addDoctor</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DoctorLogin</display-name>
+    <servlet-name>DoctorLogin</servlet-name>
+    <servlet-class>DoctorLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorLogin</servlet-name>
+    <url-pattern>/DoctorLogin</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>UpdateStatus</display-name>
+    <servlet-name>UpdateStatus</servlet-name>
+    <servlet-class>UpdateStatus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStatus</servlet-name>
+    <url-pattern>/UpdateStatus</url-pattern>
+  </servlet-mapping>
+ 
+  
+ 
+</web-app>
+
+
+</element>
+
+
+
+
