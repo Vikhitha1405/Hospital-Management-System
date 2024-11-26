@@ -9,19 +9,19 @@ The Hospital Management System is a comprehensive web-based application develope
 
 🚀 Features
 
-1. User Module
+1. User Module -
 
 Secure and role-based authentication.
 Users can book and view appointments.
 
-2. Patient Module
+2. Patient Module -
 User-friendly registration for patients.
 
-3. Doctor Module
+3. Doctor Module -
 
 View assigned appointments.
 
-4. Admin Module
+4. Admin Module -
 
 Full control over system data.
 
